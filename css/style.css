@@ -1,0 +1,35 @@
+
+
+#authors::after{
+	content: ', '
+}
+#authors:last-child::after{
+	content: '';
+}
+
+img{
+	float: left;
+	margin: 0 15px  10px  0;
+}
+h2{
+	text-align: center;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 50%;
+        
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+}
