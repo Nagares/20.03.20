@@ -59,7 +59,7 @@ function setList(books) {
 	 <img src=${book.volumeInfo.imageLinks.thumbnail}>
 	 <span>${book.volumeInfo.description}<span>
 	 <div class='text-right'>
-	 <a src=${book.volumeInfo.webReaderLink}> Start Read </a></div></div></div>`;
+	 <a href='${book.accessInfo.webReaderLink}'> Start Read </a></div></div></div>`;
 	 bookInfo.appendChild(activeItem)
 };
 
